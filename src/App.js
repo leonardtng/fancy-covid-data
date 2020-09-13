@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CNALogo from './assets/images/CNALogo.png';
+import Ticker from 'react-ticker';
+import NewsFeed from './components/NewsFeed';
+import CovidData from './components/CovidData';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <section className='newsfeed'>
+        <img className='cnalogo' src={CNALogo} alt='CNA' />
+        <Ticker height={40} offset="run-in" speed={10}>
+          {() => <NewsFeed />}
+        </Ticker>
+      </section>
+      <header>
+        <h1>Covid-19 Info Board</h1>
+        <h3>Hover over the cards to see!</h3>
       </header>
+      <section>
+        <CovidData />
+      </section>
     </div>
   );
 }

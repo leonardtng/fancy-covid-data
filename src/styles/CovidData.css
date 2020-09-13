@@ -1,0 +1,7 @@
+.wrapper {
+  text-align: center;
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
