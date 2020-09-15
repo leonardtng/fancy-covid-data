@@ -16,7 +16,7 @@ header {
 
 .newsfeed > * {
   margin: 0px;
-  height: 100px;
+  height: 44px;
 }
 
 .cnalogo {
@@ -28,6 +28,6 @@ header {
 }
 
 .ticker__element {
-  height: 44px;
+  display: flex;
   font-size: 36px;
 }
