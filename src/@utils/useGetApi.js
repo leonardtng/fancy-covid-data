@@ -71,7 +71,7 @@ const useGetApi = (
     return () => cancel()
   }, [shouldFetch, source]);
 
-  return state;
+  return [state, setShouldFetch];
 }
 
 export default useGetApi

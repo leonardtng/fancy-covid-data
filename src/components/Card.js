@@ -7,10 +7,10 @@ const Card = (props) => {
       <div className='card'>
         <div className='card-inner'>
           <div className='card-front'>
-            <h2 className='info'>{props.title}</h2>
+            <h2 className='info'>{props.data}</h2>
           </div>
           <div className='card-back'>
-            <h2 className='info'>{props.data}</h2>
+            <h2 className='info'>{props.title}</h2>
           </div>
         </div>
       </div>
