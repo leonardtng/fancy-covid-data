@@ -26,7 +26,7 @@ const CovidData = () => {
   return (
     <div>
       <div className="dropdown">
-        <button className="dropbtn">Country Select</button>
+        <div className="dropbtn">Country Select</div>
         <div className="dropdown-content">
         <div onClick={() => setCountry('singapore')}>Singapore</div>
         <div onClick={() => setCountry('USA')}>USA</div>
