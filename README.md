@@ -2,7 +2,7 @@
   Fancy Covid Info Board
 </h1>
 <p align="center">
-  A fancy covid info board made just for fun. Displays covid data from Singapore
+  A fancy covid info board made just for fun. Displays covid data from Singapore, USA and Thailand
 </p>
 <p align="center">
   View it live <a href="http://fancy-covid-data.s3-website-ap-southeast-1.amazonaws.com" target="_blank">here!</a>
