@@ -14,7 +14,19 @@
   border: none;
   cursor: pointer;
   width: 160px;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+
+.dropbtn ::after {
+  content: "";
+  width: 0; 
+  height: 0; 
+  position: absolute;
+  top: 45%;
+  right: 15px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #000000;
 }
 
 .dropdown {

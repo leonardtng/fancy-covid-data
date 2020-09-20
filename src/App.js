@@ -16,7 +16,6 @@ const App = () => {
       </section>
       <header>
         <h1>Covid-19 Info Board</h1>
-        <h3>Hover over the cards to see!</h3>
       </header>
       <section>
         <CovidData />
